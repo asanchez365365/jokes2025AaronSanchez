@@ -8,20 +8,17 @@ def choose_joke(question):
         input("Knock Knock ")
         input("Calder ")
         print("Calder police - I've been robbed!")
-        return input("Do you want to hear another joke or are you finished? ")
 
     elif question == "tanks":
         input("Knock Knock ")
         input("Tank ")
         input("You are welcome! ")
-        return input("Do you want to hear another joke or are you finished? ")
 
     elif question == "pencils":
         input("Knock Knock ")
         input("Broken pencil ")
         input("Nevermind, it's pointless! ")
-        return input("Do you want to hear another joke or are you finished? ")
-
+    return input("Do you want to hear another joke or are you finished? ")
 
 
 joke = input("Do you want to hear a joke? ")
@@ -41,6 +38,6 @@ if joke == "finished":
 
     if friend == "yes" or friend == "maybe":
         print("Thanks, we appreciate it. ")
-        print("The number jokes were:", len(answers))
+        print("The number of jokes were:", len(answers))
     else:
         print("Sorry you did not enjoy it. ")
