@@ -4,9 +4,9 @@
 
 answers = []
 
-def countdown():
+def countdown(sec):
     import time
-    for i in range(5, 0, -1):
+    for i in range(sec, 0, -1):
         print(i)
         time.sleep(1)
         
@@ -31,7 +31,7 @@ def choose_joke(question):
     return input("Do you want to hear another joke or are you finished? ")
 
 
-countdown()
+countdown(5)
 print("Initiation complete.")
 
 joke = input("Do you want to hear a joke? ")
